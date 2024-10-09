@@ -15,7 +15,7 @@ const getNote = ()=>{
     let deleteImage = document.createElement("img");
     inputBox.className = "p-tag";
     deleteImage.className = "deleteIcon";
-    deleteImage.src = "/Notes App/images/delete.png";
+    deleteImage.src = "./images/delete.png";
     inputBox.setAttribute("contenteditable","true");
     inputBox.append(deleteImage);
     inputDiv.append(inputBox);
